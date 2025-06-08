@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#title_top_1{
+    font-family: 'Fredoka One', cursive, 'Times New Roman', Times, serif;
+    color: #3C3731;
+}
+#a_know1{
+    color:orangered;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 0.7;
+}
+#a_know1:hover{
+    color: white;
+    background-color: orangered;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
