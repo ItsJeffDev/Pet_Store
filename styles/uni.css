@@ -25,6 +25,23 @@ body{
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30'%3E%3Crect width='30' height='4' y='6' fill='%23FFA500'/%3E%3Crect width='30' height='4' y='14' fill='%23FFA500'/%3E%3Crect width='30' height='4' y='22' fill='%23FFA500'/%3E%3C/svg%3E");
 }
 
-#uli:hover{
-    color: orange;
+.uli_btn{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.uli_btn:hover{
+    background-color: orange;
+    border: 1px solid orange;
+}
+
+.uli{
+    color: rgb(68, 67, 67);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.uli:hover{
+    color: rgb(255, 166, 0);
+}
+
+.uli::before{
+    
 }
