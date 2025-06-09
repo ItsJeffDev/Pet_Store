@@ -1,4 +1,12 @@
 
+body{
+    background-color: rgb(255, 225, 168);
+}
+
+#naV{
+    background: linear-gradient(to bottom, rgb(233, 182, 87), rgb(255, 255, 255, 0));
+}
+
 #title_top_1{
     font-family: 'Fredoka One', cursive, 'Times New Roman', Times, serif;
     color: #3C3731;
