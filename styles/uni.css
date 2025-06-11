@@ -2,6 +2,13 @@
 body{
     background-color: rgb(255, 225, 168);
 }
+img {
+  user-select: none; 
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  pointer-events: none;
+}
 
 #naV{
     background: linear-gradient(to bottom, rgb(233, 182, 87), rgb(255, 255, 255, 0));
@@ -27,8 +34,10 @@ body{
 
 .uli_btn{
     font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(51, 168, 207);
+    border:rgb(51, 168, 207);
 }
-.uli_btn:hover{
+.uli_btn:hover{ 
     background-color: orange;
     border: 1px solid orange;
 }
