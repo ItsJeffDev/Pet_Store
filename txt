@@ -1,29 +1,141 @@
-</div>
-</div>
-<div class="col-md-4">
-    <div class="product-card">
-        <img src="images/card_5.png" class="img-fluid" alt="Product 5">
-        <h5>Product 5</h5>
-        <p>Description for product 5.</p>
+<div class="container-xl my-4">
+  <div id="cardsCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <!-- First slide with 3 cards -->
+      <div class="carousel-item active">
+        <div class="row justify-content-center g-3">
+          <!-- Card 1 -->
+          <div class="col-12 col-md-4 d-flex justify-content-center">
+            <div class="card circle card_circle text-center">
+              <!-- Card content -->
+              <ul class="list-group list-group-flush d-flex align-items-center">
+                <li class="list-group-item p-4">
+                  <div class="cir_cle">
+                    <img src="images/circle_cat.webp" alt="Circle Image" />
+                  </div>
+                </li>
+                <li class="list-group-item h3 text-primary">
+                  ← <span class="fw-bold" style=" color: #3C3731;">For Cats</span> →
+                </li>
+                <li class="list-group-item py-4">
+                  Dry Food • Wet Food • Treats • Catnip & Grass • Litter Boxes • Bowls & Feeders • Toys • Beds •
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="col-12 col-md-4 d-flex justify-content-center">
+            <div class="card circle card_circle text-center">
+              <!-- Card content -->
+              <ul class="list-group list-group-flush d-flex align-items-center">
+                <li class="list-group-item p-4">
+                  <div class="cir_cle">
+                    <img src="images/circle_dog.webp" alt="Circle Image" />
+                  </div>
+                </li>
+                <li class="list-group-item h3 text-primary">
+                  ← <span class="fw-bold" style=" color: #3C3731;">For dogs</span> →
+                </li>
+                <li class="list-group-item py-4">
+                  Dry & Canned Food • Jerky • Chewy Treats • Bowls • Toys • Collars and Leashes • Clothes •
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="col-12 col-md-4 d-flex justify-content-center">
+            <div class="card circle card_circle text-center">
+              <!-- Card content -->
+              <ul class="list-group list-group-flush d-flex align-items-center">
+                <li class="list-group-item p-4">
+                  <div class="cir_cle">
+                    <img src="images/circle_parrot.webp" alt="Circle Image" />
+                  </div>
+                </li>
+                <li class="list-group-item h3 text-primary">
+                  ← <span class="fw-bold" style=" color: #3C3731;">For Parrots</span> →
+                </li>
+                <li class="list-group-item py-4">
+                  Food • Treats • Cages & Stands • Vitamins • Bowls & Feeders • Litter & Nesting • Odor Control •
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Second slide with 3 cards -->
+      <div class="carousel-item">
+        <div class="row justify-content-center g-3">
+          <!-- Card 4 -->
+          <div class="col-12 col-md-4 d-flex justify-content-center">
+            <div class="card circle card_circle text-center">
+              <!-- Card content -->
+              <ul class="list-group list-group-flush d-flex align-items-center">
+                <li class="list-group-item p-4">
+                  <div class="cir_cle">
+                    <img src="images/circle_rabit.webp" alt="Circle Image" />
+                  </div>
+                </li>
+                <li class="list-group-item h3 text-primary">
+                  ← <span class="fw-bold" style=" color: #3C3731;">For Rabbits</span> →
+                </li>
+                <li class="list-group-item py-4">
+                  Food • Treats • Cages & Stands • Vitamins • Bowls & Feeders • Litter & Nesting • Odor Control •
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Card 5 -->
+          <div class="col-12 col-md-4 d-flex justify-content-center">
+            <div class="card circle card_circle text-center">
+              <!-- Card content -->
+              <ul class="list-group list-group-flush d-flex align-items-center">
+                <li class="list-group-item p-4">
+                  <div class="cir_cle">
+                    <img src="images/circle_parrot.webp" alt="Circle Image" />
+                  </div>
+                </li>
+                <li class="list-group-item h3 text-primary">
+                  ← <span class="fw-bold" style=" color: #3C3731;">For Parrots</span> →
+                </li>
+                <li class="list-group-item py-4">
+                  Food • Treats • Cages & Stands • Vitamins • Bowls & Feeders • Litter & Nesting • Odor Control •
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Card 6 -->
+          <div class="col-12 col-md-4 d-flex justify-content-center">
+            <div class="card circle card_circle text-center">
+              <!-- Card content -->
+              <ul class="list-group list-group-flush d-flex align-items-center">
+                <li class="list-group-item p-4">
+                  <div class="cir_cle">
+                    <img src="images/circle_rabit.webp" alt="Circle Image" />
+                  </div>
+                </li>
+                <li class="list-group-item h3 text-primary">
+                  ← <span class="fw-bold" style=" color: #3C3731;">For Rabbits</span> →
+                </li>
+                <li class="list-group-item py-4">
+                  Food • Treats • Cages & Stands • Vitamins • Bowls & Feeders • Litter & Nesting • Odor Control •
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
-</div>
-<div class="col-md-4">
-    <div class="product-card">
-        <img src="images/card_6.png" class="img-fluid" alt="Product 6">
-        <h5>Product 6</h5>
-        <p>Description for product 6.</p>
-    </div>
-</div>
-</div>
-</div>
-</div>
-<button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-</button>
-<button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-</button>
-</div>
+
+    <!-- Navigation Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#cardsCarousel" data-bs-slide="prev" aria-label="Previous">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#cardsCarousel" data-bs-slide="next" aria-label="Next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </button>
+  </div>
 </div>

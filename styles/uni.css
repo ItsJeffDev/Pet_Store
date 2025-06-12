@@ -140,3 +140,33 @@ body {
     height: 100%;
     object-fit: cover;
 }
+
+.card {
+  max-width: 250px; /* or whatever size you prefer */
+}
+
+/* Change the background color of the arrows to transparent and set custom color */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: transparent; /* ensure transparency */
+  /* Add a custom arrow using border or SVG */
+}
+
+/* Use CSS borders to create arrows in orange */
+.carousel-control-prev-icon {
+  border-left: 30px solid orange;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+}
+
+.carousel-control-next-icon {
+  border-right: 30px solid orange;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+}
