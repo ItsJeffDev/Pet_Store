@@ -173,3 +173,25 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.box_3{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    height: 520px
+}
+
+
+.left_box{
+    width: 50%;
+    height: 100%;
+    background-color: red;
+}
+
+.right_box{
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+}
