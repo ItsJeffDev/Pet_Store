@@ -103,18 +103,16 @@ img {
     color: rgb(255, 136, 0);
 }
 
-/* Optional reset to remove default margins */
 body {
   margin: 0;
 }
 
-/* Flex container for multiple cards */
 .cards-wrapper {
   display: flex;
   flex-wrap: wrap; /* allows wrapping to next line if space runs out */
-  gap: 1rem; /* space between cards */
+  gap: 1rem;
   justify-content: center; /* optional, to center the whole row */
-  padding: 1rem; /* optional padding around the cards */
+  padding: 1rem; 
 }
 
 .circle {
@@ -169,4 +167,9 @@ body {
   width: 0;
   height: 0;
   display: inline-block;
+}
+
+.svg_damn{
+    display: flex;
+    justify-content: center;
 }
