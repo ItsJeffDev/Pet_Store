@@ -104,15 +104,17 @@ img {
 }
 
 body {
-  margin: 0;
+    margin: 0;
 }
 
 .cards-wrapper {
-  display: flex;
-  flex-wrap: wrap; /* allows wrapping to next line if space runs out */
-  gap: 1rem;
-  justify-content: center; /* optional, to center the whole row */
-  padding: 1rem; 
+    display: flex;
+    flex-wrap: wrap;
+    /* allows wrapping to next line if space runs out */
+    gap: 1rem;
+    justify-content: center;
+    /* optional, to center the whole row */
+    padding: 1rem;
 }
 
 .circle {
@@ -140,36 +142,38 @@ body {
 }
 
 .card {
-  max-width: 250px; /* or whatever size you prefer */
+    max-width: 250px;
+    /* or whatever size you prefer */
 }
 
 /* Change the background color of the arrows to transparent and set custom color */
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  background-color: transparent; /* ensure transparency */
-  /* Add a custom arrow using border or SVG */
+    background-color: transparent;
+    /* ensure transparency */
+    /* Add a custom arrow using border or SVG */
 }
 
 /* Use CSS borders to create arrows in orange */
 .carousel-control-prev-icon {
-  border-left: 30px solid orange;
-  border-top: 15px solid transparent;
-  border-bottom: 15px solid transparent;
-  width: 0;
-  height: 0;
-  display: inline-block;
+    border-left: 30px solid orange;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    width: 0;
+    height: 0;
+    display: inline-block;
 }
 
 .carousel-control-next-icon {
-  border-right: 30px solid orange;
-  border-top: 15px solid transparent;
-  border-bottom: 15px solid transparent;
-  width: 0;
-  height: 0;
-  display: inline-block;
+    border-right: 30px solid orange;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    width: 0;
+    height: 0;
+    display: inline-block;
 }
 
-.svg_damn{
+.svg_damn {
     display: flex;
     justify-content: center;
 }
@@ -180,15 +184,17 @@ body {
     justify-content: center;
     align-items: flex-start;
     max-width: 1200px;
-    margin: 0 auto; 
-    padding: 20px; 
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Fredoka One', cursive, 'Times New Roman', Times, serif;
 }
 
-.left_box, .right_box {
+.left_box,
+.right_box {
     flex: 1 1 50%;
     min-width: 200px;
     box-sizing: border-box;
-    padding: 10px; 
+    padding: 10px;
 }
 
 .left_box img {
@@ -199,7 +205,7 @@ body {
 }
 
 .right_box {
-    background-color: blue;
+    /*background-color: blue;*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -208,19 +214,49 @@ body {
 
 .right_box h1 {
     color: #3C3731;
-    font-size: 2em;
-    text-align: center;
+    font-size: 2.4em;
+    font-weight: bold;
+    text-align: start;
+}
+
+.txt_3rd {
+    line-height: 2.0rem;
+}
+
+.txt_3rd p {
+    font-size: 1.15rem;
+    font-family: cursive, serif, 'Times New Roman', Times;
+    text-align: start;
+    color: gray;
+}
+
+.list_3rd li{
+    line-height: 3rem;
+    list-style: ' 🐾   ';
+    color:rgb(88, 86, 86);
 }
 
 @media (max-width: 600px) {
-    .left_box, .right_box {
+
+    .left_box,
+    .right_box {
         flex: 1 1 100%;
         min-width: 100%;
     }
+
     .right_box {
         padding: 15px;
     }
+
     .right_box h1 {
         font-size: 1.5em;
+    }
+
+    .txt_3rd {
+        line-height: 1.7rem;
+    }
+
+    .txt_3rd p {
+        font-size: 0.95rem;
     }
 }
